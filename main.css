@@ -15,16 +15,19 @@ body{
     align-items: center;
 }
 .box{
+    position: relative;
     margin-top: 450px;
+    width: fit-content;
+    width: 450px;
     border-radius: 50%;
-    width: 400px;
     border: 8px solid #1e1d40;
 }
 .timer{
     display: flex;
     font-size: 60px;
+    position: relative;
+    padding: 160px 140px 160px 140px;
     font-weight: bold;
-    margin: 150px 150px 150px 150px;
 }
 .btn{
     height: 60px;
@@ -36,6 +39,7 @@ body{
 }
 .actions button:focus{
     outline: none;
+    border: none;
 }
 .actions .btn:focus{
     outline: none;
@@ -44,4 +48,7 @@ body{
     display: flex;
     align-self: stretch;
     justify-content: space-evenly;
+}
+i{
+    margin-left: 15px;
 }
