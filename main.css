@@ -1,10 +1,12 @@
 html{
     height: 100%;
 }
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
+@media screen and (max-width: 2000px) {
+    html ,body{
+      width: 1080px;
+      height: 2340px;
+    }
+  }
 body{
     margin: 0;
     height: 100%;
