@@ -1,6 +1,10 @@
 html{
     height: 100%;
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 body{
     margin: 0;
     height: 100%;
