@@ -6,8 +6,8 @@ var minRef = document.querySelector('.min');
 var secRef = document.querySelector('.sec');
 
 var state = {
-    min: 00,
-    sec: 00
+    min: '00',
+    sec: '00'
 };
 var id;
 setTime(state);
@@ -16,7 +16,7 @@ function computeNextTime(state) {
     var sec = state.sec;
 
     if (sec === 59) {
-        sec = 00;
+        sec = '00';
         min++;
     }
     else {
@@ -59,8 +59,8 @@ function handlePause() {
 function handleReset() {
     clearInterval(id);
     state={
-        min: 0,
-        sec: 0
+        min: '00',
+        sec: '00'
     };
     setTime(state);
     id=undefined;
